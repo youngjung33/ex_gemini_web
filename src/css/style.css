@@ -1,0 +1,123 @@
+@charset "UTF-8";
+.header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.header .header-inner {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: 1080px;
+}
+.header .header-inner .header-title {
+  flex: 0;
+  margin-right: auto;
+}
+.header .header-inner .header-title a {
+  display: block;
+  padding: 16px 0px;
+}
+.header .header-inner .header-menu {
+  flex: 1;
+}
+.header .header-inner .header-menu .header-nav-list {
+  display: flex;
+  justify-content: flex-end;
+}
+.header .header-inner .header-menu .header-nav-list .header-nav-item {
+  padding: 0 10px;
+}
+.header .header-inner .header-menu .header-nav-list .header-nav-item-link {
+  display: block;
+  padding: 24px 12px;
+}
+.header .header-inner .header-menu .header-nav-list .header-nav-item-link-text {
+  font-size: 20px;
+  font-weight: 800;
+  position: relative;
+  color: #2D3439;
+  line-height: 24px;
+}
+.header .header-inner .header-menu .header-nav-list .header-nav-item-link-text:hover {
+  color: #7070FF;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+main .container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+main .container .img_block {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+main .container .img_block .family {
+  display: block;
+  margin: 0 auto;
+  width: 712px;
+}
+
+#section1 #background1,
+#section1 #background2 {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  /* 배경 이미지 설정 */
+  background-size: cover;
+}
+#section1 #background1 {
+  background-image: url("../../../public/images/main_background1.png");
+  opacity: 0.35;
+  transition: opacity 0.5s;
+}
+#section1 .overlay1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+  /* 검은 배경의 색상과 투명도 설정 */
+}
+#section1 #background2 {
+  background-image: url("../../../public/images/image2.png");
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+#content1 {
+  width: 100vw;
+  height: 100vh;
+}
+#content1 .container {
+  max-width: 1080px;
+  margin: auto;
+  height: 100%;
+  position: relative;
+}
+#content1 .container .right_content {
+  position: absolute;
+  top: 130px;
+  left: 600px;
+  height: 720px;
+}
+
+#section3 {
+  background-color: #e74c3c;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
