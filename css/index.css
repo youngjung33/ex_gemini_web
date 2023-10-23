@@ -101,7 +101,7 @@
 .top-contents-back {
     width: 100%;
     height: 120vh;
-    background: url('../img/image1.png')center center / cover no-repeat;
+    background: url('../images/image1.png')center center / cover no-repeat;
     position: absolute;
     left: 0;
     top: 0;

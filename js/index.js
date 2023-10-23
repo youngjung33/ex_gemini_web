@@ -119,8 +119,8 @@ document.addEventListener("DOMContentLoaded", () => {
         //현재 스크롤 진행도
         const scrollRatio = scrollY / scrollHeight
 
-        const imagePath1 = "../img/image1.png"; // 첫 번째 이미지 경로
-        const imagePath2 = "../img/image2.png"; // 두 번째 이미지 경로
+        const imagePath1 = "../images/image1.png"; // 첫 번째 이미지 경로
+        const imagePath2 = "../images/image2.png"; // 두 번째 이미지 경로
 
         // 1번 섹션에서의 애니메이션
         if (scrollRatio >= 0.2) {
